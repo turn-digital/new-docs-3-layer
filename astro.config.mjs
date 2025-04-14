@@ -5,6 +5,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   site: "https://turn-digital.github.io/new-docs-3-layer/",
+  base: "/new-docs-3-layer/",
   integrations: [
     starlight({
       title: "My Docs",
